@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EmbeddedML-Benchmark Results</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+header {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #005a99;
+  padding: 10px 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.result-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.result-card:hover {
+  transform: translateY(-5px);
+}
+.result-card h2 {
+  font-size: 20px;
+  margin: 0;
+  padding: 15px;
+  background-color: #007acc;
+  color: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.result-card p {
+  padding: 15px;
+  margin: 0;
+  font-size: 16px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .result-card {
+    width: 45%;
+  }
+}
+@media (max-width: 480px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  .result-card {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>EmbeddedML-Benchmark</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Benchmarks</a></li>
+    <li><a href="#">Docs</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+</nav>
+<section class="hero">
+  <h1>Inference Benchmark Results</h1>
+</section>
+<div class="container">
+  <div class="results">
+    <div class="result-card">
+      <h2>Result 1</h2>
+      <p>Execution Time: 0.123s</p>
+      <p>Memory Usage: 12.3 MB</p>
+      <p>Inference Delay: 0.123s</p>
+    </div>
+    <div class="result-card">
+      <h2>Result 2</h2>
+      <p>Execution Time: 0.456s</p>
+      <p>Memory Usage: 15.6 MB</p>
+      <p>Inference Delay: 0.456s</p>
+    </div>
+    <div class="result-card">
+      <h2>Result 3</h2>
+      <p>Execution Time: 0.789s</p>
+      <p>Memory Usage: 18.9 MB</p>
+      <p>Inference Delay: 0.789s</p>
+    </div>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2025 EmbeddedML-Benchmark | <a href="https://EmbeddedML-Benchmark.github.io" style="color:#fff;text-decoration:none;">EmbeddedML-Benchmark.github.io</a></p>
+</footer>
+</body>
+</html>
