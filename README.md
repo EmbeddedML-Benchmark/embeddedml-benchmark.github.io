@@ -1,4 +1,4 @@
-# EmbeddedML-Benchmark Results
+# EmbeddedML Benchmark
 
 Welcome to the official results page for **EmbeddedML-Benchmark**, a benchmarking framework designed to evaluate machine learning models on embedded systems. This project aims to assess the performance of various machine learning models across different tasks, including image classification, anomaly detection, keyword spotting, and emotion detection. By optimizing models for embedded devices, we strive to explore their efficiency in real-time applications with limited resources.
 

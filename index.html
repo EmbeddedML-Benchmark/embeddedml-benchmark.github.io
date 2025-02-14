@@ -20,38 +20,75 @@
       </nav>
     </div>
   </header>
+
   <section class="hero">
     <div class="container">
       <h2>Inference Benchmark Results</h2>
+      <p>Explore the performance metrics of various machine learning models optimized for embedded systems.</p>
     </div>
   </section>
+
   <main class="container">
     <section class="intro">
       <p>Welcome to the EmbeddedML-Benchmark results page. Explore the performance metrics of various machine learning models optimized for embedded systems below.</p>
     </section>
+
     <section class="results">
-      <div class="result-card">
-        <h3>Model A</h3>
-        <p><strong>Average Execution Time:</strong> 0.0s</p>
-        <p><strong>Average Memory Usage:</strong> 16.41 MB</p>
-        <p><strong>Average CPU Usage:</strong> 77%</p>
-        <p><strong>Quantized Output:</strong> [-1, -128, -128, -128, -128, -1, -128, -128, -128, -128, -128, -127]</p>
-        <p><strong>Dequantized Output:</strong> [0.496, 0.0, 0.0, 0.0, 0.0, 0.496, 0.0, 0.0, 0.0, 0.0, 0.0, 0.004]</p>
+      <h3>Benchmark Results</h3>
+      <table class="benchmark-table">
+        <thead>
+          <tr>
+            <th>Use Case</th>
+            <th>Dataset</th>
+            <th>TFLite Model Size</th>
+            <th>Quality Target</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Image Classification</td>
+            <td>CIFAR 10 (32x32)</td>
+            <td>TinyML (9 KB)</td>
+            <td>85% (Top-1)</td>
+          </tr>
+          <tr>
+            <td>Keyword Spotting</td>
+            <td>Speech Communication (49x10)</td>
+            <td>Dense-CNN (53 KB)</td>
+            <td>89% (Top-1)</td>
+          </tr>
+          <tr>
+            <td>Anomaly Detection</td>
+            <td>ToyADMOS (5x128)</td>
+            <td>FC-AutoEncoder (41 KB)</td>
+            <td>99% (Top-1)</td>
+          </tr>
+          <tr>
+            <td>Emotion Detection</td>
+            <td>Multi-Class Emotional Sentences (298x12)</td>
+            <td>LSTM (161 KB)</td>
+            <td>89% (Top-1)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="graphs">
+      <h3>Performance Comparison</h3>
+      <div class="graph">
+        <img src="https://via.placeholder.com/800x400" alt="Anomaly Detection Performance" />
+        <p>Anomaly Detection Results</p>
       </div>
-      <div class="result-card">
-        <h3>Model B</h3>
-        <p><strong>Average Execution Time:</strong> 0.1s</p>
-        <p><strong>Average Memory Usage:</strong> 12.3 MB</p>
-        <p><strong>Average CPU Usage:</strong> 65%</p>
-        <p><strong>Quantized Output:</strong> [-1, -128, -128, -128, -128, -1, -128, -128, -128, -128, -128, -127]</p>
-        <p><strong>Dequantized Output:</strong> [0.432, 0.1, 0.2, 0.4, 0.2, 0.45, 0.1, 0.2, 0.3, 0.2, 0.1, 0.05]</p>
+      <div class="graph">
+        <img src="https://via.placeholder.com/800x400" alt="Emotion Detection Performance" />
+        <p>Emotion Detection Results</p>
       </div>
-      <!-- Additional result cards can be added here -->
     </section>
   </main>
+
   <footer>
     <div class="container">
-      <p>&copy; 2025 EmbeddedML-Benchmark | <a href="https://EmbeddedML-Benchmark.github.io">EmbeddedML-Benchmark.github.io</a></p>
+      <p>&copy; 2025 EmbeddedML-Benchmark | <a href="https://EmbeddedML-Benchmark.github.io" target="_blank">EmbeddedML-Benchmark.github.io</a></p>
     </div>
   </footer>
 </body>
