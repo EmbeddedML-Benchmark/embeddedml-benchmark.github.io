@@ -35,3 +35,10 @@ To explore the benchmarking results and learn more about the **EmbeddedML-Benchm
 ## Conclusion
 
 This site serves as a valuable resource for understanding how machine learning models can be deployed and optimized on embedded systems. We hope this benchmarking framework can be useful for researchers and developers working in the field of edge AI and embedded systems.
+
+## Authors
+- [Iman Mohammadi](https://github.com/Imanm02)
+- [Shayan Salehi](https://github.com/ShayanSalehi81)
+- [Armin Saghafian](https://github.com/ArminS03)
+
+Special Thanks to [Ali Salesi](https://github.com/alisalc).
